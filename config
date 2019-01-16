@@ -1,0 +1,15 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/jokehwq/b-demo-.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "shudong"]
+	url = https://github.com/jokehwq/b-demo-.git
+	fetch = +refs/heads/*:refs/remotes/shudong/*
+	tagopt = --no-tags
+[remote]
+	pushdefault = shudong
