@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shudong-project" />
         <module name="xunwu-project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="shudong-project" target="1.8" />
       <module name="xunwu-project" target="1.8" />
     </bytecodeTargetLevel>
   </component>
